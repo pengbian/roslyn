@@ -1,0 +1,14 @@
+items:
+- uid: Microsoft.CodeAnalysis.Internal
+  href: Microsoft.CodeAnalysis.Internal.yml
+  name: Internal
+  fullName: Microsoft.CodeAnalysis.Internal
+  type: Namespace
+  source:
+    remote:
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      description: 2b5d9bbb
+    path: src/Workspaces/Core/Portable/Log/Logger.cs
+    startLine: 7
+  id: Microsoft.CodeAnalysis.Internal

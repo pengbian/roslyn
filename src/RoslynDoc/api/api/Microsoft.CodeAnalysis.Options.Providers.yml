@@ -1,0 +1,14 @@
+items:
+- uid: Microsoft.CodeAnalysis.Options.Providers
+  href: Microsoft.CodeAnalysis.Options.Providers.yml
+  name: Providers
+  fullName: Microsoft.CodeAnalysis.Options.Providers
+  type: Namespace
+  source:
+    remote:
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      description: 2b5d9bbb
+    path: src/Workspaces/Core/Portable/Options/Providers/OptionSerializerMetadata.cs
+    startLine: 7
+  id: Microsoft.CodeAnalysis.Options.Providers

@@ -1,0 +1,14 @@
+items:
+- uid: Microsoft.CodeAnalysis.GeneratedCodeRecognition
+  href: Microsoft.CodeAnalysis.GeneratedCodeRecognition.yml
+  name: GeneratedCodeRecognition
+  fullName: Microsoft.CodeAnalysis.GeneratedCodeRecognition
+  type: Namespace
+  source:
+    remote:
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      description: 2b5d9bbb
+    path: src/Workspaces/Core/Portable/GeneratedCodeRecognition/IGeneratedCodeRecognitionService.cs
+    startLine: 4
+  id: Microsoft.CodeAnalysis.GeneratedCodeRecognition

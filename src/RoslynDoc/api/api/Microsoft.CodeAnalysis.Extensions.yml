@@ -1,0 +1,14 @@
+items:
+- uid: Microsoft.CodeAnalysis.Extensions
+  href: Microsoft.CodeAnalysis.Extensions.yml
+  name: Extensions
+  fullName: Microsoft.CodeAnalysis.Extensions
+  type: Namespace
+  source:
+    remote:
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      description: 2b5d9bbb
+    path: src/Workspaces/Core/Portable/ExtensionManager/ServicesLayerExtensionManager.cs
+    startLine: 14
+  id: Microsoft.CodeAnalysis.Extensions

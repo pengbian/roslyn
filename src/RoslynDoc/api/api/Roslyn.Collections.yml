@@ -1,0 +1,14 @@
+items:
+- uid: Roslyn.Collections
+  href: Roslyn.Collections.yml
+  name: Collections
+  fullName: Roslyn.Collections
+  type: Namespace
+  source:
+    remote:
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      description: 2b5d9bbb
+    path: src/Workspaces/Core/Portable/Utilities/CompilerUtilities/ImmutableHashMap.cs
+    startLine: 14
+  id: Roslyn.Collections
