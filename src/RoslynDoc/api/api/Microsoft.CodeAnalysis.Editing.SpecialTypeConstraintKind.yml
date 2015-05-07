@@ -1,0 +1,88 @@
+items:
+- uid: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind
+  href: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.yml
+  name: SpecialTypeConstraintKind
+  fullName: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind
+  type: Enum
+  source:
+    remote: &o0
+      path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+    startLine: 6
+  syntax:
+    content:
+      CSharp: public enum SpecialTypeConstraintKind
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  - id: System.ValueType
+    name: ValueType
+    isExternal: true
+  - id: System.Enum
+    name: Enum
+    isExternal: true
+  id: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind
+  children:
+  - Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.None
+  - Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ReferenceType
+  - Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ValueType
+  - Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.Constructor
+- uid: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.None
+  href: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.yml
+  name: None
+  fullName: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+    startLine: 9
+  syntax:
+    content:
+      CSharp: public const SpecialTypeConstraintKind None
+  id: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.None
+- uid: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ReferenceType
+  href: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.yml
+  name: ReferenceType
+  fullName: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ReferenceType
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+    startLine: 14
+  summary: Has the reference type constraint (i.e. 'class' constraint in C#)
+  syntax:
+    content:
+      CSharp: public const SpecialTypeConstraintKind ReferenceType
+  id: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ReferenceType
+- uid: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ValueType
+  href: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.yml
+  name: ValueType
+  fullName: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ValueType
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+    startLine: 19
+  summary: Has the value type constraint (i.e. 'struct' constraint in C#)
+  syntax:
+    content:
+      CSharp: public const SpecialTypeConstraintKind ValueType
+  id: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.ValueType
+- uid: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.Constructor
+  href: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.yml
+  name: Constructor
+  fullName: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.Constructor
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Editing/TypeConstraintKind.cs
+    startLine: 24
+  summary: Has the constructor constraint (i.e. 'new' constraint in C#)
+  syntax:
+    content:
+      CSharp: public const SpecialTypeConstraintKind Constructor
+  id: Microsoft.CodeAnalysis.Editing.SpecialTypeConstraintKind.Constructor

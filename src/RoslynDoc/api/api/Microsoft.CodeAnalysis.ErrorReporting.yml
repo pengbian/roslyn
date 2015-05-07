@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.ErrorReporting
+  href: Microsoft.CodeAnalysis.ErrorReporting.yml
+  name: ErrorReporting
+  fullName: Microsoft.CodeAnalysis.ErrorReporting
+  type: Namespace
+  source:
+    remote:
+      path: src/Compilers/Core/Portable/InternalUtilities/FatalError.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Compilers/Core/Portable/InternalUtilities/FatalError.cs
+    startLine: 8
+  id: Microsoft.CodeAnalysis.ErrorReporting

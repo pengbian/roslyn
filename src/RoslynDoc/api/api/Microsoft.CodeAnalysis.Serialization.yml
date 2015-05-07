@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Serialization
+  href: Microsoft.CodeAnalysis.Serialization.yml
+  name: Serialization
+  fullName: Microsoft.CodeAnalysis.Serialization
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Serialization/IAssemblySerializationInfoService.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Serialization/IAssemblySerializationInfoService.cs
+    startLine: 4
+  id: Microsoft.CodeAnalysis.Serialization

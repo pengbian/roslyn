@@ -1,0 +1,107 @@
+items:
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: FormattingOptions
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions
+  type: Class
+  source:
+    remote: &o0
+      path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 6
+  syntax:
+    content:
+      CSharp: public class FormattingOptions
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions
+  children:
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabs
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.TabSize
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentationSize
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.SmartIndent
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabOnlyForIndentation
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.NewLine
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabs
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: UseTabs
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabs
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 12
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<bool> UseTabs
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabs
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.TabSize
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: TabSize
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.TabSize
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 14
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<int> TabSize
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.TabSize
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentationSize
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: IndentationSize
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentationSize
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 16
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<int> IndentationSize
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentationSize
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.SmartIndent
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: SmartIndent
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.SmartIndent
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 18
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<IndentStyle> SmartIndent
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.SmartIndent
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabOnlyForIndentation
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: UseTabOnlyForIndentation
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabOnlyForIndentation
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 20
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<bool> UseTabOnlyForIndentation
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.UseTabOnlyForIndentation
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.NewLine
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.yml
+  name: NewLine
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.NewLine
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 22
+  syntax:
+    content:
+      CSharp: public static readonly PerLanguageOption<string> NewLine
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.NewLine

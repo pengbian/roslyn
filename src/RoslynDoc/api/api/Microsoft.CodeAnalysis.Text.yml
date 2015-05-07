@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Text
+  href: Microsoft.CodeAnalysis.Text.yml
+  name: Text
+  fullName: Microsoft.CodeAnalysis.Text
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Workspace/TextExtensions.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Workspace/TextExtensions.cs
+    startLine: 6
+  id: Microsoft.CodeAnalysis.Text

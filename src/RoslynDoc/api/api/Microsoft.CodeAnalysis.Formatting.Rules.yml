@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Formatting.Rules
+  href: Microsoft.CodeAnalysis.Formatting.Rules.yml
+  name: Rules
+  fullName: Microsoft.CodeAnalysis.Formatting.Rules
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Formatting/Rules/Operations/SuppressOption.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Formatting/Rules/Operations/SuppressOption.cs
+    startLine: 5
+  id: Microsoft.CodeAnalysis.Formatting.Rules

@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.CodeGeneration
+  href: Microsoft.CodeAnalysis.CodeGeneration.yml
+  name: CodeGeneration
+  fullName: Microsoft.CodeAnalysis.CodeGeneration
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/CodeGeneration/TypeGenerator.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/CodeGeneration/TypeGenerator.cs
+    startLine: 6
+  id: Microsoft.CodeAnalysis.CodeGeneration

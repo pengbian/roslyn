@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.CaseCorrection
+  href: Microsoft.CodeAnalysis.CaseCorrection.yml
+  name: CaseCorrection
+  fullName: Microsoft.CodeAnalysis.CaseCorrection
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/CaseCorrection/ICaseCorrectionService.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/CaseCorrection/ICaseCorrectionService.cs
+    startLine: 8
+  id: Microsoft.CodeAnalysis.CaseCorrection

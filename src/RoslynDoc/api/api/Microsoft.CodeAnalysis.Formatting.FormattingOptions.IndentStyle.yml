@@ -1,0 +1,71 @@
+items:
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.yml
+  name: IndentStyle
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle
+  type: Enum
+  source:
+    remote: &o0
+      path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 28
+  syntax:
+    content:
+      CSharp: public enum IndentStyle
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  - id: System.ValueType
+    name: ValueType
+    isExternal: true
+  - id: System.Enum
+    name: Enum
+    isExternal: true
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle
+  children:
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.None
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Block
+  - Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Smart
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.None
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.yml
+  name: None
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.None
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 30
+  syntax:
+    content:
+      CSharp: public const IndentStyle None
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.None
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Block
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.yml
+  name: Block
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Block
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 31
+  syntax:
+    content:
+      CSharp: public const IndentStyle Block
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Block
+- uid: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Smart
+  href: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.yml
+  name: Smart
+  fullName: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Smart
+  type: Field
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Formatting/FormattingOptions.cs
+    startLine: 32
+  syntax:
+    content:
+      CSharp: public const IndentStyle Smart
+  id: Microsoft.CodeAnalysis.Formatting.FormattingOptions.IndentStyle.Smart

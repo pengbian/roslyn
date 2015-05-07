@@ -1,0 +1,76 @@
+items:
+- uid: Microsoft.CodeAnalysis.DocumentDiagnostic
+  href: Microsoft.CodeAnalysis.DocumentDiagnostic.yml
+  name: DocumentDiagnostic
+  fullName: Microsoft.CodeAnalysis.DocumentDiagnostic
+  type: Class
+  source:
+    remote: &o0
+      path: src/Workspaces/Core/Portable/Workspace/Solution/DocumentDiagnostic.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Workspace/Solution/DocumentDiagnostic.cs
+    startLine: 4
+  syntax:
+    content:
+      CSharp: 'public class DocumentDiagnostic : WorkspaceDiagnostic'
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  - id: Microsoft.CodeAnalysis.WorkspaceDiagnostic
+    name: WorkspaceDiagnostic
+    href: Microsoft.CodeAnalysis.WorkspaceDiagnostic.yml
+  id: Microsoft.CodeAnalysis.DocumentDiagnostic
+  children:
+  - Microsoft.CodeAnalysis.DocumentDiagnostic.DocumentId
+  - Microsoft.CodeAnalysis.DocumentDiagnostic.#ctor(Microsoft.CodeAnalysis.WorkspaceDiagnosticKind,System.String,Microsoft.CodeAnalysis.DocumentId)
+- uid: Microsoft.CodeAnalysis.DocumentDiagnostic.DocumentId
+  href: Microsoft.CodeAnalysis.DocumentDiagnostic.yml
+  name: DocumentId
+  fullName: Microsoft.CodeAnalysis.DocumentDiagnostic.DocumentId
+  type: Property
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Workspace/Solution/DocumentDiagnostic.cs
+    startLine: 6
+  syntax:
+    content:
+      CSharp: public DocumentId DocumentId { get; }
+    parameters:
+    - id: DocumentId
+      type:
+        id: Microsoft.CodeAnalysis.DocumentId
+        name: DocumentId
+        href: Microsoft.CodeAnalysis.DocumentId.yml
+  id: Microsoft.CodeAnalysis.DocumentDiagnostic.DocumentId
+- uid: Microsoft.CodeAnalysis.DocumentDiagnostic.#ctor(Microsoft.CodeAnalysis.WorkspaceDiagnosticKind,System.String,Microsoft.CodeAnalysis.DocumentId)
+  href: Microsoft.CodeAnalysis.DocumentDiagnostic.yml
+  name: DocumentDiagnostic(WorkspaceDiagnosticKind, string, DocumentId)
+  fullName: Microsoft.CodeAnalysis.DocumentDiagnostic.DocumentDiagnostic(Microsoft.CodeAnalysis.WorkspaceDiagnosticKind, string, Microsoft.CodeAnalysis.DocumentId)
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Workspace/Solution/DocumentDiagnostic.cs
+    startLine: 8
+  syntax:
+    content:
+      CSharp: public DocumentDiagnostic(WorkspaceDiagnosticKind kind, string message, DocumentId documentId)
+    parameters:
+    - id: kind
+      type:
+        id: Microsoft.CodeAnalysis.WorkspaceDiagnosticKind
+        name: WorkspaceDiagnosticKind
+        href: Microsoft.CodeAnalysis.WorkspaceDiagnosticKind.yml
+    - id: message
+      type:
+        id: System.String
+        name: string
+        isExternal: true
+    - id: documentId
+      type:
+        id: Microsoft.CodeAnalysis.DocumentId
+        name: DocumentId
+        href: Microsoft.CodeAnalysis.DocumentId.yml
+  id: Microsoft.CodeAnalysis.DocumentDiagnostic.#ctor(Microsoft.CodeAnalysis.WorkspaceDiagnosticKind,System.String,Microsoft.CodeAnalysis.DocumentId)

@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Notification
+  href: Microsoft.CodeAnalysis.Notification.yml
+  name: Notification
+  fullName: Microsoft.CodeAnalysis.Notification
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Notification/IGlobalOperationNotificationService.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Notification/IGlobalOperationNotificationService.cs
+    startLine: 5
+  id: Microsoft.CodeAnalysis.Notification

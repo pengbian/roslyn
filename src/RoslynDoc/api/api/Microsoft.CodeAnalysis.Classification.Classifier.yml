@@ -1,0 +1,100 @@
+items:
+- uid: Microsoft.CodeAnalysis.Classification.Classifier
+  href: Microsoft.CodeAnalysis.Classification.Classifier.yml
+  name: Classifier
+  fullName: Microsoft.CodeAnalysis.Classification.Classifier
+  type: Class
+  source:
+    remote: &o0
+      path: src/Workspaces/Core/Portable/Classification/Classifier.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Classification/Classifier.cs
+    startLine: 15
+  syntax:
+    content:
+      CSharp: public class Classifier
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  id: Microsoft.CodeAnalysis.Classification.Classifier
+  children:
+  - Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpansAsync(Microsoft.CodeAnalysis.Document,Microsoft.CodeAnalysis.Text.TextSpan,System.Threading.CancellationToken)
+  - Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpans(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.Text.TextSpan,Microsoft.CodeAnalysis.Workspace,System.Threading.CancellationToken)
+- uid: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpansAsync(Microsoft.CodeAnalysis.Document,Microsoft.CodeAnalysis.Text.TextSpan,System.Threading.CancellationToken)
+  href: Microsoft.CodeAnalysis.Classification.Classifier.yml
+  name: GetClassifiedSpansAsync(Document, TextSpan, CancellationToken)
+  fullName: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpansAsync(Microsoft.CodeAnalysis.Document, Microsoft.CodeAnalysis.Text.TextSpan, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Classification/Classifier.cs
+    startLine: 17
+  syntax:
+    content:
+      CSharp: public static Task<IEnumerable<ClassifiedSpan>> GetClassifiedSpansAsync(Document document, TextSpan textSpan, CancellationToken cancellationToken = null)
+    parameters:
+    - id: document
+      type:
+        id: Microsoft.CodeAnalysis.Document
+        name: Document
+        href: Microsoft.CodeAnalysis.Document.yml
+    - id: textSpan
+      type:
+        id: Microsoft.CodeAnalysis.Text.TextSpan
+        name: TextSpan
+        href: Microsoft.CodeAnalysis.Text.TextSpan
+    - id: cancellationToken
+      type:
+        id: System.Threading.CancellationToken
+        name: CancellationToken
+        isExternal: true
+    return:
+      id: Task
+      type:
+        id: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.Classification.ClassifiedSpan}}
+        name: Task<IEnumerable<ClassifiedSpan>>
+        isExternal: true
+  id: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpansAsync(Microsoft.CodeAnalysis.Document,Microsoft.CodeAnalysis.Text.TextSpan,System.Threading.CancellationToken)
+- uid: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpans(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.Text.TextSpan,Microsoft.CodeAnalysis.Workspace,System.Threading.CancellationToken)
+  href: Microsoft.CodeAnalysis.Classification.Classifier.yml
+  name: GetClassifiedSpans(SemanticModel, TextSpan, Workspace, CancellationToken)
+  fullName: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpans(Microsoft.CodeAnalysis.SemanticModel, Microsoft.CodeAnalysis.Text.TextSpan, Microsoft.CodeAnalysis.Workspace, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote: *o0
+    path: src/Workspaces/Core/Portable/Classification/Classifier.cs
+    startLine: 26
+  syntax:
+    content:
+      CSharp: public static IEnumerable<ClassifiedSpan> GetClassifiedSpans(SemanticModel semanticModel, TextSpan textSpan, Workspace workspace, CancellationToken cancellationToken = null)
+    parameters:
+    - id: semanticModel
+      type:
+        id: Microsoft.CodeAnalysis.SemanticModel
+        name: SemanticModel
+        href: Microsoft.CodeAnalysis.SemanticModel
+    - id: textSpan
+      type:
+        id: Microsoft.CodeAnalysis.Text.TextSpan
+        name: TextSpan
+        href: Microsoft.CodeAnalysis.Text.TextSpan
+    - id: workspace
+      type:
+        id: Microsoft.CodeAnalysis.Workspace
+        name: Workspace
+        href: Microsoft.CodeAnalysis.Workspace.yml
+    - id: cancellationToken
+      type:
+        id: System.Threading.CancellationToken
+        name: CancellationToken
+        isExternal: true
+    return:
+      id: IEnumerable
+      type:
+        id: System.Collections.Generic.IEnumerable{Microsoft.CodeAnalysis.Classification.ClassifiedSpan}
+        name: IEnumerable<ClassifiedSpan>
+        isExternal: true
+  id: Microsoft.CodeAnalysis.Classification.Classifier.GetClassifiedSpans(Microsoft.CodeAnalysis.SemanticModel,Microsoft.CodeAnalysis.Text.TextSpan,Microsoft.CodeAnalysis.Workspace,System.Threading.CancellationToken)

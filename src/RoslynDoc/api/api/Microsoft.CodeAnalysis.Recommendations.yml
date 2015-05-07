@@ -1,0 +1,27 @@
+items:
+- uid: Microsoft.CodeAnalysis.Recommendations
+  href: Microsoft.CodeAnalysis.Recommendations.yml
+  name: Recommendations
+  fullName: Microsoft.CodeAnalysis.Recommendations
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Recommendations/Recommender.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Recommendations/Recommender.cs
+    startLine: 8
+  id: Microsoft.CodeAnalysis.Recommendations
+  children:
+  - Microsoft.CodeAnalysis.Recommendations.RecommendationOptions
+  - Microsoft.CodeAnalysis.Recommendations.Recommender
+references:
+- uid: Microsoft.CodeAnalysis.Recommendations.RecommendationOptions
+  href: Microsoft.CodeAnalysis.Recommendations.RecommendationOptions.yml
+  name: RecommendationOptions
+  type: Class
+- uid: Microsoft.CodeAnalysis.Recommendations.Recommender
+  href: Microsoft.CodeAnalysis.Recommendations.Recommender.yml
+  name: Recommender
+  type: Class

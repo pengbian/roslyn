@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Shared.Collections
+  href: Microsoft.CodeAnalysis.Shared.Collections.yml
+  name: Collections
+  fullName: Microsoft.CodeAnalysis.Shared.Collections
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Shared/Collections/TextSpanIntervalIntrospector.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Shared/Collections/TextSpanIntervalIntrospector.cs
+    startLine: 5
+  id: Microsoft.CodeAnalysis.Shared.Collections

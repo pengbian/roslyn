@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.SemanticModelWorkspaceService
+  href: Microsoft.CodeAnalysis.SemanticModelWorkspaceService.yml
+  name: SemanticModelWorkspaceService
+  fullName: Microsoft.CodeAnalysis.SemanticModelWorkspaceService
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/SemanticModelWorkspaceService/SemanticModelWorkspaceServiceFactory.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/SemanticModelWorkspaceService/SemanticModelWorkspaceServiceFactory.cs
+    startLine: 17
+  id: Microsoft.CodeAnalysis.SemanticModelWorkspaceService

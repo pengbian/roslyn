@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.LanguageServices
+  href: Microsoft.CodeAnalysis.LanguageServices.yml
+  name: LanguageServices
+  fullName: Microsoft.CodeAnalysis.LanguageServices
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/LanguageServices/TypeInferenceService/ITypeInferenceService.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/LanguageServices/TypeInferenceService/ITypeInferenceService.cs
+    startLine: 6
+  id: Microsoft.CodeAnalysis.LanguageServices

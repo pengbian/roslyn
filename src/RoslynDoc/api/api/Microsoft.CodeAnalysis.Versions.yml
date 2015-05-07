@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Versions
+  href: Microsoft.CodeAnalysis.Versions.yml
+  name: Versions
+  fullName: Microsoft.CodeAnalysis.Versions
+  type: Namespace
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Versions/PersistedVersionStampLogger.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Versions/PersistedVersionStampLogger.cs
+    startLine: 4
+  id: Microsoft.CodeAnalysis.Versions

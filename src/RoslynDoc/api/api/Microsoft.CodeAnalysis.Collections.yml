@@ -1,0 +1,15 @@
+items:
+- uid: Microsoft.CodeAnalysis.Collections
+  href: Microsoft.CodeAnalysis.Collections.yml
+  name: Collections
+  fullName: Microsoft.CodeAnalysis.Collections
+  type: Namespace
+  source:
+    remote:
+      path: src/Compilers/Core/SharedCollections/PooledHashSet.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Compilers/Core/SharedCollections/PooledHashSet.cs
+    startLine: 6
+  id: Microsoft.CodeAnalysis.Collections

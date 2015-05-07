@@ -1,0 +1,29 @@
+items:
+- uid: Microsoft.CodeAnalysis.Editing.SymbolEditor.AsyncDeclarationEditAction
+  href: Microsoft.CodeAnalysis.Editing.SymbolEditor.AsyncDeclarationEditAction.yml
+  name: AsyncDeclarationEditAction
+  fullName: Microsoft.CodeAnalysis.Editing.SymbolEditor.AsyncDeclarationEditAction
+  type: Delegate
+  source:
+    remote:
+      path: src/Workspaces/Core/Portable/Editing/SymbolEditor.cs
+      branch: master
+      repo: https://github.com/pengbian/roslyn.git
+      key: 74f60326
+    path: src/Workspaces/Core/Portable/Editing/SymbolEditor.cs
+    startLine: 224
+  summary: An action that make changes to a declaration node within a [Microsoft.CodeAnalysis.SyntaxTree]().
+  syntax:
+    content:
+      CSharp: public delegate Task AsyncDeclarationEditAction(DocumentEditor editor, SyntaxNode declaration, CancellationToken cancellationToken);
+  inheritance:
+  - id: System.Object
+    name: object
+    isExternal: true
+  - id: System.Delegate
+    name: Delegate
+    isExternal: true
+  - id: System.MulticastDelegate
+    name: MulticastDelegate
+    isExternal: true
+  id: Microsoft.CodeAnalysis.Editing.SymbolEditor.AsyncDeclarationEditAction
